@@ -1,8 +1,8 @@
 def solution(n, lost, reserve):
     
+    uniform = [1] * n
     lost.sort()
     reserve.sort()
-    uniform = [1] * n
 
     for i in reserve[:]:
         if i in lost:
