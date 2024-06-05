@@ -1,5 +1,13 @@
 def solution(n, lost, reserve):
     
+    lost.sort()
+    reserve.sort()
+    uniform = [1] * n
+
+    for i in reserve[:]:
+        if i in lost:
+            reserve.remove(i)
+            lost.remove(i)
 
     for index in reserve:
         uniform[index - 1] += 1
