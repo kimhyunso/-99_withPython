@@ -1,7 +1,7 @@
 from typing import List
-# 1
+
 class Solution:
-    # 1
+    # 첫번째 풀이법
     # def countBits(n: int) -> List[int]:
     #     result = []
     #     for num in range(n+1):
@@ -13,7 +13,7 @@ class Solution:
 
     #     return result
 
-    # 2
+    # 두번째 풀이법
     # def countBits(self, n: int) -> List[int]:
     #     result = []
     #     for num in range(n+1):
@@ -21,7 +21,7 @@ class Solution:
 
     #     return result
 
-    # 3
+    # 세번째 풀이법
     def countBits(self, n: int) -> List[int]:
         result = []
         for num in range(n+1):
