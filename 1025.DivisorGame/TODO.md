@@ -21,6 +21,7 @@ n = 3
 ![문제예시](https://github.com/kimhyunso/sail-99_withPython/assets/87798982/6cf3bcb4-5baa-46ea-a7da-e0b924901ddf)
 {: .align-center}
 
+엘리스가 패배하면 `False`를 이긴다면 `True`를 리턴하라
 
 # 풀이법
 아래 이미지와 같이 n의 경우를 트리구조로 만들어보았다.
